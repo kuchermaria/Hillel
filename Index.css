@@ -4,6 +4,23 @@ h1 {
 p {
     color: olivedrab;
 }
-a {
-    color: chocolate;
+img {
+    width: 500px;
+}
+.button {
+    top: 50%;
+    background-color: gold;
+    color: cornsilk;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
+    min-width: 100px;
+
+}
+.card {
+    
+    
+    font-size: 20px;
+
 }
