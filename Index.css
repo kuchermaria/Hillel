@@ -1,16 +1,16 @@
 h1 {
     color: darkolivegreen;
+    font-style: initial;
 }
-p {
-    color: olivedrab;
-}
+
+
 img {
     width: 500px;
 }
 .button {
     top: 50%;
-    background-color: gold;
-    color: cornsilk;
+    background-color: rgb(93, 88, 58);
+    color: rgb(255, 255, 255);
     border: none;
     border-radius: 10px;
     padding: 15px;
@@ -18,9 +18,24 @@ img {
     min-width: 100px;
 
 }
+.button2 {
+    top: 50%;
+    background-color: rgb(233, 161, 17);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 10px;
+    min-width: 80px;
+
+}
 .card {
-    
-    
     font-size: 20px;
+
+}
+.bottom-text {
+    font-size: 20px;
+    font-style: normal;
+    color: darkolivegreen;
 
 }
