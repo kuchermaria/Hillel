@@ -29,8 +29,9 @@
 }
 .nav {
     font-size: 18px;
-    color: black;
+    color: #656565;
     margin:auto 20px;
+    font-weight: normal;
     
     
 }
@@ -102,6 +103,7 @@
     margin: 15px auto 50px;
     color:#656565;
     font-size: 18px;
+    line-height: 22px;
 
 }
  .container3 {
@@ -190,6 +192,7 @@
     margin: 20px auto 50px;
     color:#656565;
     font-size: 18px;
+    line-height: 22px;
 }
 .video {
     margin: 10px auto 50px auto;
