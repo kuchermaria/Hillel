@@ -1,44 +1,39 @@
 * { font-family: 'Times New Roman', Times, serif;}
 
 
-.container {
-    background-color: #F5EFEA;
-}
+
 .home {
+    background-color:#F5EFEA ;
+}
+.container {
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
-    background-image: url(./bg2.png);
+    
 }
 .menu {
     display: flex;
-    margin-left: 50px;
-    margin: 0 20px 0 0;
+    padding: 10px 0 0 0;
     position: relative;
-    
-    
 
-
-    
 }
 .logo {
     width: 200px;
-    margin: 20px 20px 0 50px;
+    margin: auto 20px auto 50px;
     
 
 }
 .nav {
     font-size: 18px;
     color: #656565;
-    margin:auto 20px;
+    margin:0 auto;
     font-weight: normal;
     
     
 }
 .menu li {
     list-style-type: none;
-    margin-top: 20px;
-    display: flex;
+    margin: 20px;
     
     
 }
@@ -58,15 +53,14 @@
     font-size: 18px;
     
 }
- .container h1 {
+ .h1home {
     font-size: 44px;
     color: #656565;
-    margin-left: 50px;
-    margin-top: 100px;
+    margin: 100px 0 0 50px;
 
     
 }
-.container p {
+ .phome {
     font-size: 18px;
     color: #656565;
     margin-left: 50px;
@@ -77,28 +71,28 @@
     
 }
 
-.container2 {
+.about {
     background-color:  #D9DCC8;
     
     
     
 
 }
-.about {
+.container2 {
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
     text-align: center;
     padding: 15px;
 }
-.container2 h2 {
+.h2about {
     color: #656565;
     margin: 50px auto 0 auto;
     font-size: 30px;
     
 
 }
-.container2 p {
+.pabout {
     width: 800px;
     margin: 15px auto 50px;
     color:#656565;
@@ -106,29 +100,29 @@
     line-height: 22px;
 
 }
- .container3 {
+ .sale {
     background-color: #F5EFEA;
     
     
 
  }
- .sale {
+ .container3 {
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
-    padding: 15px;
-    display: flex;
+    padding: 15px 0;
+    display: block;
+    text-align: center;
+    
  }
  
     
 
  .card {
-    
-    width: auto;
-    height: 120px;
     background-color: rgb(255, 255, 255);
     display: inline-block;
-    margin-left: 5px;
+    
+    
  }
 .image {
     width: 110px;
@@ -145,7 +139,7 @@
 
 
 
-.product h3 {
+.name {
     font-size: 16px;
     text-align: center;
     padding: 10px 0 5px 0;
@@ -155,7 +149,7 @@
     
 }
 
-.card p {
+.price {
     font-size: 18px;
     color: rgb(92, 4, 4);
     text-align: center;
@@ -170,10 +164,10 @@
     margin: 15px auto;
     
 }
-.container4 {
+.review {
     background-color:#D9DCC8 ;
 }
-.review {
+.container4 {
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
@@ -181,13 +175,13 @@
     padding: 15px;
 
 }
-.container4 h2 {
+.h1review {
     font-size: 30px;
     color: #656565;
     margin: 50px auto 0 auto;
     
 }
-.container4 p {
+.preview {
     width: 800px;
     margin: 20px auto 50px;
     color:#656565;
@@ -197,16 +191,16 @@
 .video {
     margin: 10px auto 50px auto;
 }
-.container5 {
+.footer {
     background-color: #F5EFEA;
 }
-.footer {
+.container5 {
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
     padding: 15px;
 }
-.foot {
+.pfooter {
    font-size: 16px;
    color: black;
    margin: 20px 0 20px 50px ;
