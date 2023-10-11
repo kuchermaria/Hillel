@@ -1,8 +1,8 @@
 @font-face {
     font-family: Roboto;
-    src: url(Roboto/Roboto-Regular.ttf);
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf);
 }
-* {
+ body {
     font-family: Roboto;
 }
 
@@ -29,11 +29,15 @@
 .top-link:hover {
     background-color: dimgrey;
 }
+.center-section {
+    border-bottom: 1px solid #EFEFEF;
+}
 .center-section-container {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .logo-name {
     text-transform: uppercase;
@@ -60,21 +64,24 @@ background-color: white;
 .list-navigation-links {
     display: flex;
     justify-content: center;
-    padding: 30px 0;
+    margin: 15px 0;
+}
+.list-navigation-items {
+    margin-right: 25px;
 }
 .nav-link {
     color: #333;
     display: block;
-    margin-right: 40px;
+    padding: 15px;
 
 }
-.line {
-    background-color:#EFEFEF ;
-    height: 1px;
-}
+
 .slider-wrapper {
     background-color: #F13C6E ;
+   
+    
 }
+
 
 .slider-wrapper-tittle {
     font-size: 48px;
@@ -103,18 +110,34 @@ background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(../images/bag-img);
+    background-repeat: no-repeat;
+    padding-top: 240px;
+    padding-bottom: 240px;
+    background-position: right;
+   
+   
+
 }
+
 .offers-wrapper {
     background-color:#EFEFEF ;
+    padding: 80px 0 100px 0;
+    
 }
-.offers-wrapper-container {
+
+.offers-wrapper-container-card {
     display: flex;
     justify-content: space-between;
+    padding-top: 40px;
+    
 }
 .offers-wrapper-tittle {
     color: #000;
     font-size: 24px ;
-   padding: 80px 0 40px 0 ;
+   
+   
+   
 
 }
 .offers-wrapper-card {
@@ -122,7 +145,8 @@ background-color: white;
     display: flex;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 80px;
+   padding: 25px 50px 25px 50px;
+   
     
     
 }
@@ -132,6 +156,7 @@ background-color: white;
     text-align: center;
     line-height: 18px;
     margin-bottom:  20px;
+    margin-top: 20px;
 }
 
 .offers-card-price {
@@ -145,21 +170,19 @@ background-color: white;
     border-radius: 30px;
     padding: 10px 50px;
     color: white;
-    margin-bottom: 25px;
+    
     font-size: 14px;
    
 
 }
-.offers-img {
-    margin: 25px 65px 20px 65px;
-}
+
 .aside-wrapper {
     background-color: #EFEFEF;
 }
 .aside-blocks {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0 100px 0;
+    padding-bottom:  100px ;
 }
 .aside-get {
     background-color: #F13C6E ;
@@ -224,46 +247,69 @@ background-color: white;
 .row-wrapper {
     background-color: #EFEFEF;
 }
-.row-list-main {
-    display: flex;
-    justify-content: center;
-}
 
 
 .row-list-block {
     display: flex;
-    flex-direction: column;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1px;
+    column-gap: 1px;
     
 }
 .row-list {
-    padding: 35px 65px;
+    
+    padding: 35px 75px ;
     background-color: #fff;
-    margin: 0.5px;
+    
 
+}
+.footer-wrapper {
+    border-bottom: 1px solid #EFEFEF;
 }
 .footer-menu {
     display: flex;
     justify-content: space-between;
     padding: 60px 0 60px 0;
 }
+.footer-menu-categories {
+    flex-grow: 1;
+    margin-right: 30px;
 
+}
 
 .footer-categories-list {
-   margin: 25px 168px 0 0;
+   margin-top: 25px;
     
 }
+.contacts-network {
+    display: flex;
+    
+}
+.contacts-network-items {
+    margin-right: 15px;
+    border: 2px solid #F13C6E;
+    border-radius: 100px ;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 .menu-list-tittle {
     font-size: 16px;
     padding-bottom: 30px;
     line-height: 22px;
+    border-bottom: 1px solid #EFEFEF;
 }
 .list-categories-link {
     color: #828282;
     display: block;
     font-size: 12px;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 .footer-contacts {
     padding: 40px 0;
@@ -271,9 +317,7 @@ background-color: white;
     justify-content: space-between;
     align-items: center;
 }
-.network-facebook {
-    padding: 0 20px;
-}
+
 .footer-wrapper-more {
     background-color:#EFEFEF ;
 }
