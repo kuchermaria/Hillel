@@ -193,7 +193,7 @@ background-color: white;
     
 }
 .aside-get-desc {
-    padding: 0 91px 0 0;
+    margin-right: 90px;
 }
 .aside-get-tittle {
     font-size: 18px;
@@ -221,7 +221,7 @@ background-color: white;
     
 }
 .aside-visit-desc {
-    padding: 0 100px 0 0;
+    margin-right: 100px;
 }
 .aside-visit-tittle {
     color: #fff;
