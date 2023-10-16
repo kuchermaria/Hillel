@@ -36,15 +36,15 @@
   padding: 50px 0;
 }
 
-.description-container-title {
+.description-container__tittle {
   font-size: 44px;
   color: #656565;
 }
 
-.description-container-text {
+.description-container__text {
   font-size: 18px;
   color: #656565;
-  margin-top: 20px;
+  margin-top: 25px;
   line-height: 22px;
 }
 
@@ -63,7 +63,7 @@
   text-align: center;
 }
 
-.description-container-title_center {
+.description-container__tittle_center {
   font-size: 30px;
 }
 
