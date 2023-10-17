@@ -1,5 +1,8 @@
 @import "./variables.scss";
-
+@font-face {
+    font-family: 'Times New Roman', Times, serif;
+    src: url(../fonts/Times\ New\ Roman.ttf);
+}
 
 .home-wrapper {
     background-color: $primary-color;
@@ -26,6 +29,7 @@
     padding:  20px;
     font-size: $medium-font-size;
     color: $primary-font-color;
+    font-family: $base-font-family;
 }
 .logo {
     width: 200px;
@@ -39,12 +43,15 @@
 .description-container__tittle {
     font-size: 44px;
     color: $primary-font-color;
+    font-family: $base-font-family;
+    
 }
 .description-container__text {
     font-size: $medium-font-size;
     color: $primary-font-color;
     margin-top: 25px;
     line-height: 22px;
+    font-family: $base-font-family;
 
 }
 
@@ -53,6 +60,7 @@
     color: $button-text-color;
     font-size: $medium-font-size;
     padding: 14px 20px;
+    font-family: $base-font-family;
     
 } 
 .about-wrapper {
@@ -88,6 +96,7 @@
 .product-tittle {
     font-size: $small-font-size;
     color: $secondary-font-color;
+    font-family: $base-font-family;
 
 }
 .product-price {
@@ -101,6 +110,7 @@
     font-size: $x-small-font-size;
     padding: 8px 12px;
     margin-top: 15px;
+    font-family: $base-font-family;
 }
 .review-wrapper {
     background-color: $secondary-color;
@@ -125,4 +135,5 @@
 .footer-text {
     color: $primary-font-color;
     font-size: $small-font-size;
+    font-family: $base-font-family;
 }
