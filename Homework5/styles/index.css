@@ -230,7 +230,7 @@ background-color: white;
 .aside-container-desc {
     margin-right: 70px;
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:570px) {
     .aside-blocks-container {
         flex-direction: column;
     }
