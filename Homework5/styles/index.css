@@ -224,7 +224,6 @@ background-color: white;
     align-items: center;
     padding: 35px 45px 35px 40px;
    
-    
 }
 
 .aside-container-desc {
@@ -253,7 +252,7 @@ background-color: white;
 }
 .aside-get-input {
     background-color: #fff;
-    padding:9px 30px 9px 20px;
+    padding:9px 14px 9px 10px;
     border-radius: 30px;
     font-size: 14px;
     
@@ -273,7 +272,7 @@ background-color: white;
 }
 .aside-visit-more {
     color: #fff;
-    padding: 8px 65px;
+    padding: 9px 70px;
     border: 2px solid #fff;
     border-radius: 30px;
     background-color: #f13c6f00;
