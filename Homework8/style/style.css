@@ -1,27 +1,24 @@
 .container {
     max-width: 1300px;
     margin: 0 auto;
-   
 }
 .grid-wrapper {
     display: grid;
     align-content: center;
     justify-content: center;
-    grid-template-rows: 50px 50px 50px 50px;
-    grid-template-columns: minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) ;
+    grid-template-rows: repeat(4, 50px);
+    grid-template-columns: repeat(6, minmax(200px,auto))   ;
     grid-template-areas: 
     "header header header header menu menu "
     "list list list image menu menu"
     "brand_main product_main product image menu menu"
      "brand product_main product image block block" ;
-    text-align: center;
     gap: 5px;
-    
 }
 @media screen and (max-width:1250px) {
     .grid-wrapper {
-        grid-template-rows: 50px 50px 50px 50px 50px;
-        grid-template-columns: minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) minmax(200px,auto)  ;
+        grid-template-rows: repeat(5,50px);
+        grid-template-columns: repeat(5, minmax(200px,auto))  ;
         grid-template-areas: 
         "header header header header header"
         "menu menu list list list"
@@ -32,8 +29,8 @@
 }
 @media screen and (max-width:1100px) {
     .grid-wrapper {
-        grid-template-rows: 50px 50px 50px 50px 50px 50px;
-        grid-template-columns: minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) minmax(200px,auto)   ;
+        grid-template-rows: repeat(6,50px);
+        grid-template-columns:repeat(4, minmax(200px,auto))   ;
         grid-template-areas: 
         "header header header header"
         "menu list list list"
@@ -45,8 +42,8 @@
 }
 @media screen and (max-width:850px) {
     .grid-wrapper {
-        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
-        grid-template-columns: minmax(200px,auto) minmax(200px,auto) minmax(200px,auto) ;
+        grid-template-rows: repeat(8,50px);
+        grid-template-columns: repeat(3, minmax(200px,auto)) ;
         grid-template-areas: 
         "header header header"
         "menu menu menu"
@@ -60,8 +57,8 @@
 }
 @media screen and (max-width:650px) {
     .grid-wrapper {
-        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
-        grid-template-columns: minmax(200px,auto) minmax(200px,auto)  ;
+        grid-template-rows: repeat(10,50px);
+        grid-template-columns: repeat(2, minmax(200px,auto))  ;
         grid-template-areas: 
         "header header"
         "menu menu"
@@ -77,7 +74,7 @@
 }
 @media screen and (max-width:450px) {
     .grid-wrapper {
-        grid-template-rows: 50px repeat(18);
+        grid-template-rows:  repeat(18, 50px);
         grid-template-columns: minmax(200px,auto)   ;
         grid-template-areas: 
         "header"
@@ -100,9 +97,6 @@
         "block"
     }
 }
-
-    
-    
 
 
 .item_header {
